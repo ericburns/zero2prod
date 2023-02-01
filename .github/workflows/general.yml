@@ -61,5 +61,5 @@ jobs:
           override: true
       - uses: actions-rs/tarpaulin@v0.1
         with:
-          version: v0.1
-          args: '--ignore-tests'
+          version: '0.15.0'
+          args: -- --ignore-tests
