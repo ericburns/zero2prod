@@ -59,6 +59,7 @@ jobs:
         with:
           toolchain: stable
           override: true
-      - uses: actions-rs/tarpaulin@v0.1.0
+      - uses: actions-rs/tarpaulin@v0.1
         with:
+          version: v0.1
           args: -- --ignore-tests
